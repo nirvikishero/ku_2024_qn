@@ -72,7 +72,9 @@ int main(){
             break;
         } else{
             cout<<"Enter valid input !!!"<<endl;
+     
         }
+        i++;
     }
     
 }

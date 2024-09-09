@@ -65,7 +65,7 @@ int main(){
             double money;
             cout<<"Enter the amount : ";
             cin>>money;
-            dw->payment(money,i);
+            dw->load(money,i);
         } else if ( a == 3){
             dw->payment_history();
         } else if( a == 4){

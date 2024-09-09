@@ -33,7 +33,7 @@ class Transaction : virtual public Digital_wallet{
         else {
             balance -= money;
             transarr[trans%5] = -money;
-            court<<"Payment successful of Rs."<<money<<" New Bal: Rs."<<balance<<endl;
+            cout<<"Payment successful of Rs."<<money<<" New Bal: Rs."<<balance<<endl;
             if(money > 2000) reward_point += 50;
         }
         if (reward_point>1000){

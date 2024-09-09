@@ -50,9 +50,9 @@ int main(){
     Digital_wallet* dw;
     Transaction tt(20000,10,1);
     dw = &tt;
+    int i = 0;
     while(true){
         int a;
-        int i = 0;
         cout<<"Enter task you want to perform \n 1 = payment \n 2 = load \n 3 = payment history \n 4 = exit application ";
         cin>>a;
         if(a == 1 ){
